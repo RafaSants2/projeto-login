@@ -33,11 +33,14 @@ section#login {
     border-radius: 20px;
     overflow: hidden; /*Tudo que estiver fora da borda, ficará escondido */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
-
+    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
